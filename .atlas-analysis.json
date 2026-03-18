@@ -1,0 +1,183 @@
+{
+  "projectType": "framework",
+  "projectName": "Next.js",
+  "projectDescription": "A React framework for building full-stack web applications with server-side rendering, static site generation, and the App Router.",
+  "theme": "palm",
+  "primaryColor": "#7c7c7c",
+  "lightColor": "#070707",
+  "darkColor": "#c4c4c4",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "App Router",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "app/getting-started/installation",
+              "app/getting-started/project-structure",
+              "app/getting-started/layouts-and-pages",
+              "app/getting-started/linking-and-navigating",
+              "app/getting-started/server-and-client-components",
+              "app/getting-started/fetching-data",
+              "app/getting-started/mutating-data",
+              "app/getting-started/caching",
+              "app/getting-started/error-handling",
+              "app/getting-started/deploying"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "app/guides/authentication",
+              "app/guides/environment-variables",
+              "app/guides/css-and-styling",
+              "app/guides/images-and-media",
+              "app/guides/fonts",
+              "app/guides/metadata-and-seo",
+              "app/guides/routing-and-navigation",
+              "app/guides/data-fetching-patterns",
+              "app/guides/caching-strategies",
+              "app/guides/forms-and-mutations",
+              "app/guides/internationalization",
+              "app/guides/testing",
+              "app/guides/self-hosting",
+              "app/guides/static-exports",
+              "app/guides/incremental-static-regeneration",
+              "app/guides/streaming",
+              "app/guides/debugging"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Components",
+            "pages": [
+              "api-reference/components/image",
+              "api-reference/components/link",
+              "api-reference/components/font",
+              "api-reference/components/script",
+              "api-reference/components/form"
+            ]
+          },
+          {
+            "group": "File Conventions",
+            "pages": [
+              "api-reference/file-conventions/page",
+              "api-reference/file-conventions/layout",
+              "api-reference/file-conventions/loading",
+              "api-reference/file-conventions/error",
+              "api-reference/file-conventions/not-found",
+              "api-reference/file-conventions/route",
+              "api-reference/file-conventions/template",
+              "api-reference/file-conventions/default",
+              "api-reference/file-conventions/middleware",
+              "api-reference/file-conventions/instrumentation",
+              "api-reference/file-conventions/route-segment-config"
+            ]
+          },
+          {
+            "group": "Functions",
+            "pages": [
+              "api-reference/functions/use-router",
+              "api-reference/functions/use-pathname",
+              "api-reference/functions/use-params",
+              "api-reference/functions/use-search-params",
+              "api-reference/functions/cookies",
+              "api-reference/functions/headers",
+              "api-reference/functions/redirect",
+              "api-reference/functions/not-found",
+              "api-reference/functions/generate-static-params",
+              "api-reference/functions/generate-metadata",
+              "api-reference/functions/revalidate-path",
+              "api-reference/functions/revalidate-tag",
+              "api-reference/functions/after",
+              "api-reference/functions/next-request",
+              "api-reference/functions/next-response",
+              "api-reference/functions/image-response"
+            ]
+          },
+          {
+            "group": "Configuration",
+            "pages": [
+              "api-reference/config/next-config",
+              "api-reference/config/typescript",
+              "api-reference/config/eslint",
+              "api-reference/config/turbopack"
+            ]
+          },
+          {
+            "group": "CLI",
+            "pages": [
+              "api-reference/cli/create-next-app",
+              "api-reference/cli/next-cli"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Architecture",
+        "groups": [
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "architecture/overview",
+              "architecture/compiler",
+              "architecture/turbopack",
+              "architecture/fast-refresh",
+              "architecture/accessibility",
+              "architecture/supported-browsers"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Community",
+        "groups": [
+          {
+            "group": "Contributing",
+            "pages": [
+              "community/contributing",
+              "community/changelog"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "App Router with React Server Components",
+    "File-based routing with layouts, pages, and route handlers",
+    "Server-side rendering (SSR) and static site generation (SSG)",
+    "Incremental Static Regeneration (ISR)",
+    "Built-in image, font, and script optimization",
+    "Turbopack bundler for fast development builds",
+    "Middleware and Edge Runtime support",
+    "TypeScript support out of the box",
+    "Automatic code splitting and prefetching",
+    "Built-in CSS, Sass, and Tailwind CSS support",
+    "API Routes and Route Handlers",
+    "Streaming and Suspense support"
+  ],
+  "publicApiSurface": [
+    "next/image — Image component with automatic optimization",
+    "next/link — Client-side navigation Link component",
+    "next/font — Font optimization with Google Fonts and local fonts",
+    "next/script — Script loading with strategies",
+    "next/navigation — useRouter, usePathname, useParams, useSearchParams",
+    "next/headers — cookies(), headers() server functions",
+    "next/cache — revalidatePath(), revalidateTag(), cacheLife(), cacheTag()",
+    "next/server — NextRequest, NextResponse, middleware support",
+    "next/og — ImageResponse for Open Graph images",
+    "create-next-app — CLI scaffolding tool",
+    "next dev / next build / next start / next lint — CLI commands",
+    "next.config.js — Framework configuration file",
+    "generateStaticParams() — Static parameter generation",
+    "generateMetadata() — Dynamic metadata generation",
+    "Route Segment Config — layout.tsx/page.tsx export constants",
+    "Server Actions — Form mutations with use server directive"
+  ]
+}
